@@ -1,26 +1,32 @@
 <style>
+
 body {
   font-family: sans-serif;
+  background-color: #F3F3F3;
+  padding: 0px;
 }
 
 h1 {
-  color: red;
+  color: black;
 }
 .center {
     margin: auto;
     width: 60%;
     padding: 10px;
 }
+.white {
+  background-color: white;
+}
 </style>
-
-
-<div class="center">
+<body>
+<div class="center white">
   <h1>HELLO BRO</h1>
 <h3>Contact helper v1.0</h3>
 <form action="/submit" method="POST">
   <input type="text" name="model[name]" value="Enter Model Name" />
   <input type="submit" value="Submit" />
 </form>
+
 
 <h3>All Models</h3>
 <ul>
@@ -32,3 +38,4 @@ h1 {
 </ul>
 <a href="/">Back to Home</a>
 </div>
+</body>
